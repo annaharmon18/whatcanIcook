@@ -1,0 +1,35 @@
+{
+  "id": 2,
+  "image": "shakshouka.jpg",
+  "name": "Shakshouka (for 1)",
+  "meal": "Breakfast",
+  "ingredients": [
+    {
+      "name": "Tomatoes",
+      "quantity": "1 medium, diced"
+    },
+    {
+      "name": "Red Bell Pepper",
+      "quantity": "1/2, sliced"
+    },
+    {
+      "name": "Onion",
+      "quantity": "1/4, diced"
+    },
+    {
+      "name": "Eggs",
+      "quantity": "2"
+    },
+    {
+      "name": "Salt and Pepper",
+      "quantity": ""
+    }
+  ],
+  "instructions": [
+    "Heat oil in a skillet over medium heat.",
+    "Add onion and cook until translucent.",
+    "Add bell pepper and cook for another 2-3 minutes.",
+    "Pour in tomatoes, salt, and pepper. Simmer for 10-15 minutes.",
+    "Crack eggs into the skillet and cook until whites are set."
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes · What Can I Cook?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html">🍳 What Can I Cook?</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html" class="active">Recipes</a></li>
+      <li><a href="pantry.html">Pantry</a></li>
+      <li><a href="cook.html">What Can I Cook?</a></li>
+      <li><a href="add-recipe.html">Add Recipe</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Recipes</h1>
+    <p>Find something yummy to make today.</p>
+  </div>
+
+  <main>
+    <div class="controls">
+      <div class="search-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0Z"/>
+        </svg>
+        <input class="search-input" id="search" type="text" placeholder="Search recipes...">
+      </div>
+
+      <select class="filter-select" id="meal-type-filter">
+        <option value="">All Meal Types</option>
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+        <option value="Snack">Snack</option>
+        <option value="Dessert">Dessert</option>
+        <option value="Side">Side</option>
+      </select>
+
+      <select class="filter-select" id="cuisine-filter">
+        <option value="">All Cuisines</option>
+        <option value="American">American</option>
+        <option value="British">British</option>
+        <option value="Chinese">Chinese</option>
+        <option value="French">French</option>
+        <option value="Greek">Greek</option>
+        <option value="Indian">Indian</option>
+        <option value="Italian">Italian</option>
+        <option value="Japanese">Japanese</option>
+        <option value="Korean">Korean</option>
+        <option value="Mediterranean">Mediterranean</option>
+        <option value="Mexican">Mexican</option>
+        <option value="Middle Eastern">Middle Eastern</option>
+        <option value="Spanish">Spanish</option>
+        <option value="Thai">Thai</option>
+        <option value="Turkish">American</option>
+        <option value="Vietnamese">Vietnamese</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <button class="btn btn-outline" id="fav-toggle">☆ Favorites</button>
+      <button class="btn btn-outline" id="export-favs">⬇️ Export</button>
+    </div>
+
+    <div id="recipe-cards"></div>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay" style="display:none;" role="dialog" aria-modal="true">
+    <div class="modal" id="modal">
+      <div id="modal-inner"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 What Can I Cook? · Made with ❤️</p>
+  </footer>
+
+  <script src="recipes.js"></script>
+</body>
+</html>

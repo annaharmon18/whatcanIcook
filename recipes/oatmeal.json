@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "image": "oatmeal.jpg",
+  "name": "Oatmeal",
+  "meal": "Breakfast",
+  "ingredients": [
+    {
+      "name": "Rolled Oats",
+      "quantity": "1 cup"
+    },
+    {
+      "name": "Water",
+      "quantity": "2 cups"
+    },
+    {
+      "name": "Optional: Honey/Brown Sugar",
+      "quantity": ""
+    }
+  ],
+  "instructions": [
+    "Combine oats and water in a pot. Bring to a boil, then reduce heat.",
+    "Simmer for 5-10 minutes or until desired consistency."
+  ]
+}

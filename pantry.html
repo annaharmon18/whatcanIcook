@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pantry · What Can I Cook?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html">🍳 What Can I Cook?</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="pantry.html" class="active">Pantry</a></li>
+      <li><a href="cook.html">What Can I Cook?</a></li>
+      <li><a href="add-recipe.html">Add Recipe</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>My Pantry</h1>
+    <p>Track what you have on hand.</p>
+  </div>
+
+  <main>
+    <div class="pantry-layout">
+
+      <div class="pantry-panel">
+        <h2>Add Ingredient</h2>
+        <form class="add-form" id="add-form">
+          <input type="text" id="ingredient-input" placeholder="Ingredient (e.g. Rolled Oats)" autocomplete="off" required>
+          <input type="number" id="quantity-input" placeholder="Qty" min="0" step="any" style="max-width:70px;">
+          <select id="unit-input">
+            <option value="">—</option>
+            <option value="tsp">tsp</option>
+            <option value="tbsp">tbsp</option>
+            <option value="fl oz">fl oz</option>
+            <option value="cup">cup</option>
+            <option value="pint">pint</option>
+            <option value="quart">quart</option>
+            <option value="gallon">gallon</option>
+            <option value="oz">oz</option>
+            <option value="lb">lb</option>
+            <option value="g">g</option>
+            <option value="kg">kg</option>
+            <option value="ml">ml</option>
+            <option value="l">l</option>
+            <option value="pinch">pinch</option>
+            <option value="dash">dash</option>
+            <option value="handful">handful</option>
+            <option value="clove">clove</option>
+            <option value="slice">slice</option>
+            <option value="piece">piece</option>
+            <option value="can">can</option>
+            <option value="package">package</option>
+            <option value="to taste">to taste</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+        <p style="font-size:0.82rem; color:var(--text-muted);">Your pantry is saved in your browser.</p>
+      </div>
+
+      <div class="pantry-panel">
+        <h2>Pantry Items <span id="item-count" style="font-size:0.85rem; color:var(--text-muted); font-family:'DM Sans',sans-serif; font-weight:400;"></span></h2>
+        <ul id="pantry-list"></ul>
+        <div id="pantry-empty" style="display:none; text-align:center; padding:1.5rem 0; color:var(--text-muted); font-size:0.9rem;">
+          No items yet. Add some ingredients above!
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 What Can I Cook? · Made with ❤️</p>
+  </footer>
+
+  <script src="pantry.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Recipe · What Can I Cook?</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="index.html">🍳 What Can I Cook?</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="pantry.html">Pantry</a></li>
+      <li><a href="cook.html">What Can I Cook?</a></li>
+      <li><a href="add-recipe.html" class="active">Add Recipe</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Add a Recipe</h1>
+    <p>Fill in the details, then export it as a JSON file to save locally.</p>
+  </div>
+
+  <main>
+    <div class="form-layout">
+
+      <!-- ── LEFT: FORM ── -->
+      <div class="form-panel">
+
+        <!-- Basic Info -->
+        <section class="form-section">
+          <h2 class="form-section-title">Basic Info</h2>
+
+          <div class="form-group">
+            <label for="recipe-name">Recipe Name <span class="required">*</span></label>
+            <input type="text" id="recipe-name" placeholder="e.g. Classic Carbonara">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="recipe-meal">Meal Type <span class="required">*</span></label>
+              <select id="recipe-meal">
+                <option value="">Select...</option>
+                <option value="Breakfast">Breakfast</option>
+                <option value="Lunch">Lunch</option>
+                <option value="Dinner">Dinner</option>
+                <option value="Snack">Snack</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Side">Side</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-cuisine">Cuisine</label>
+              <select id="recipe-cuisine">
+                <option value="">Select...</option>
+                <option value="American">American</option>
+                <option value="British">British</option>
+                <option value="Chinese">Chinese</option>
+                <option value="French">French</option>
+                <option value="Greek">Greek</option>
+                <option value="Indian">Indian</option>
+                <option value="Italian">Italian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Korean">Korean</option>
+                <option value="Mediterranean">Mediterranean</option>
+                <option value="Mexican">Mexican</option>
+                <option value="Middle Eastern">Middle Eastern</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Thai">Thai</option>
+                <option value="Vietnamese">Vietnamese</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="recipe-time">Cook Time (minutes)</label>
+              <input type="number" id="recipe-time" placeholder="e.g. 30" min="1">
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-servings">Servings</label>
+              <input type="number" id="recipe-servings" placeholder="e.g. 4" min="1">
+            </div>
+
+            <div class="form-group">
+              <label for="recipe-complexity">Complexity</label>
+              <div class="star-rating" id="star-rating">
+                <button type="button" class="star" data-value="1">★</button>
+                <button type="button" class="star" data-value="2">★</button>
+                <button type="button" class="star" data-value="3">★</button>
+                <button type="button" class="star" data-value="4">★</button>
+                <button type="button" class="star" data-value="5">★</button>
+              </div>
+              <input type="hidden" id="recipe-complexity" value="0">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="recipe-source">Original Recipe Link</label>
+            <input type="url" id="recipe-source" placeholder="https://...">
+          </div>
+
+          <div class="form-group">
+            <label for="recipe-image-file">Photo (JPG/PNG)</label>
+            <div class="image-upload-wrap" id="image-upload-wrap">
+              <input type="file" id="recipe-image-file" accept="image/jpeg,image/png">
+              <div class="image-upload-hint">
+                <span style="font-size:1.5rem">📷</span>
+                <p>Click to choose a photo, or drag and drop</p>
+                <p style="font-size:0.78rem; color:var(--text-muted);">JPG or PNG · saved filename will be used</p>
+              </div>
+              <img id="image-preview" class="image-preview" style="display:none;" alt="Preview">
+            </div>
+          </div>
+        </section>
+
+        <!-- Ingredients -->
+        <section class="form-section">
+          <h2 class="form-section-title">Ingredients</h2>
+          <div id="ingredients-list"></div>
+          <button type="button" class="btn btn-outline" id="add-ingredient">+ Add Ingredient</button>
+        </section>
+
+        <!-- Steps -->
+        <section class="form-section">
+          <h2 class="form-section-title">Steps</h2>
+          <div id="steps-list"></div>
+          <button type="button" class="btn btn-outline" id="add-step">+ Add Step</button>
+        </section>
+
+        <!-- Actions -->
+        <section class="form-section">
+          <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+            <button type="button" class="btn btn-primary" id="export-recipe">⬇️ Export as JSON</button>
+            <button type="button" class="btn btn-outline" id="clear-form">Clear Form</button>
+          </div>
+          <p style="font-size:0.82rem; color:var(--text-muted); margin-top:0.75rem;">
+            Save the exported JSON to your <code>recipes/</code> folder, then add the filename to <code>RECIPE_FILES</code> in <code>recipes.js</code> and <code>cook.js</code>.
+          </p>
+        </section>
+
+      </div>
+
+      <!-- ── RIGHT: LIVE PREVIEW ── -->
+      <div class="preview-panel">
+        <h2 class="form-section-title" style="margin-bottom:1.25rem;">Live Preview</h2>
+        <div id="recipe-preview" class="recipe-preview-card"></div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 What Can I Cook? · Made with ❤️</p>
+  </footer>
+
+  <script src="add-recipe.js"></script>
+</body>
+</html>
