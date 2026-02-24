@@ -1,0 +1,92 @@
+{
+  "id": 1771897429183,
+  "name": "Autumn Salad",
+  "meal": "Dinner",
+  "cuisine": "",
+  "cookTime": 30,
+  "servings": 6,
+  "complexity": 3,
+  "image": "autumnsalad.jpg",
+  "source": "https://nutritionbykylie.substack.com/p/my-favorite-autumn-salad",
+  "ingredients": [
+    {
+      "name": "Sweet potato",
+      "quantity": "1"
+    },
+    {
+      "name": "Olive oil",
+      "quantity": ".75 cup"
+    },
+    {
+      "name": "Paprika",
+      "quantity": "0.5 tsp"
+    },
+    {
+      "name": "Galic powder",
+      "quantity": "1 tsp"
+    },
+    {
+      "name": "Chickpeas",
+      "quantity": "1 can"
+    },
+    {
+      "name": "Chili powder",
+      "quantity": "0.5 tsp"
+    },
+    {
+      "name": "Brussel sprouts",
+      "quantity": "0.5 lb"
+    },
+    {
+      "name": "Parmesan",
+      "quantity": "0.5 cup"
+    },
+    {
+      "name": "Tahini",
+      "quantity": "0.25 cup"
+    },
+    {
+      "name": "Lemon juice",
+      "quantity": "1.5 tbsp"
+    },
+    {
+      "name": "Dijion mustard",
+      "quantity": "1 tsp"
+    },
+    {
+      "name": "Worcestershire sauce",
+      "quantity": "0.5 tbsp"
+    },
+    {
+      "name": "Garlic",
+      "quantity": "2 clove"
+    },
+    {
+      "name": "Kale",
+      "quantity": "12 oz"
+    },
+    {
+      "name": "Avocado",
+      "quantity": "1"
+    },
+    {
+      "name": "Sunflower seeds",
+      "quantity": "0.4 cup"
+    },
+    {
+      "name": "Salt",
+      "quantity": ""
+    },
+    {
+      "name": "Pepper",
+      "quantity": ""
+    }
+  ],
+  "instructions": [
+    "Slice sweet potato into thin wedges or quarters. Toss with olive oil, paprika, garlic powder, salt, and pepper.",
+    "Rinse and dry 1 can of chickpeas. Toss in olive oil, chili powder, garlic powder, salt, pepper.",
+    "Spread sweet potato and chickpeas on a baking sheet. Roast at 425°F for 30 minutes.",
+    "Shred Brussels sprouts.  Toss with olive oil, salt, and pepper. Add to the oven to roast for 15 minutes.",
+    "Make dressing in a blender:\n\n0.5 cup olive oil, 0.5 cup shredded Parmesan, 1/4 cup tahini, 1.5 tbsp lemon juice, 1 tsp Dijon mustard, 0.5 tbsp Worcestershire sauce, 2 cloves garlic, salt and pepper to taste.\n\nBlend until smooth."
+  ]
+}
