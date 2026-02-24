@@ -4,6 +4,7 @@ const RECIPE_FILES = [
   'autumn-salad.json',
   'coconut-miso-salmon-curry.json',
   'one-pot-beans-greens-and-grains.json',
+  'breakfast-burrito.json',
   // Keep in sync with recipes.js
 ];
 
