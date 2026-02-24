@@ -1,0 +1,75 @@
+{
+  "id": 1771898497501,
+  "name": "Coconut-Miso Salmon Curry",
+  "meal": "Dinner",
+  "cuisine": "",
+  "cookTime": 45,
+  "servings": 4,
+  "complexity": 3,
+  "image": "salmoncurry.jpg",
+  "source": "https://cooking.nytimes.com/recipes/1020045-coconut-miso-salmon-curry",
+  "ingredients": [
+    {
+      "name": "Canola oil",
+      "quantity": "2 tbsp"
+    },
+    {
+      "name": "Red onion",
+      "quantity": "1"
+    },
+    {
+      "name": "Ginger",
+      "quantity": "1 piece"
+    },
+    {
+      "name": "Garlic",
+      "quantity": "3 clove"
+    },
+    {
+      "name": "Salt",
+      "quantity": ""
+    },
+    {
+      "name": "Pepper",
+      "quantity": ""
+    },
+    {
+      "name": "White miso",
+      "quantity": "0.25 cup"
+    },
+    {
+      "name": "Full-fat coconut milk",
+      "quantity": "0.5 cup"
+    },
+    {
+      "name": "Salmon fillet",
+      "quantity": "1 lb"
+    },
+    {
+      "name": "Baby spinach",
+      "quantity": "5 cup"
+    },
+    {
+      "name": "Lime",
+      "quantity": "1"
+    },
+    {
+      "name": "Jasmine rice",
+      "quantity": "4 cup"
+    },
+    {
+      "name": "Basil",
+      "quantity": "0.25 cup"
+    },
+    {
+      "name": "Cilantro",
+      "quantity": "0.25 cup"
+    }
+  ],
+  "instructions": [
+    "In a large pot, heat 2 tablespoons oil over medium. Add onion, ginger and garlic, and season with salt and pepper. Cook, stirring occasionally, until softened, about 3 minutes. Add miso and cook, stirring frequently, until miso is lightly caramelized, about 2 minutes.",
+    "Add coconut milk and 3 cups water, and bring to a boil over high heat. Cook until liquid is slightly reduced, about 5 minutes.",
+    "Stir in salmon, reduce the heat to medium-low and simmer gently until just cooked through, about 5 minutes. Turn off heat and stir in spinach and lime juice.",
+    "Divide rice among bowls. Top with salmon curry, basil and cilantro. Serve with lime wedges for squeezing on top."
+  ]
+}
