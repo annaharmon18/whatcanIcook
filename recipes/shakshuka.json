@@ -1,0 +1,76 @@
+{
+  "id": 1771895192772,
+  "name": "Shakshuka",
+  "meal": "Breakfast",
+  "cuisine": "Middle Eastern",
+  "cookTime": 25,
+  "servings": 1,
+  "complexity": 2,
+  "image": "shakshouka.jpg",
+  "source": "https://www.sunglowkitchen.com/shakshuka-for-one-recipe/",
+  "ingredients": [
+    {
+      "name": "Olive oil",
+      "quantity": "1 tbsp"
+    },
+    {
+      "name": "Onion",
+      "quantity": "1"
+    },
+    {
+      "name": "Garlic",
+      "quantity": "2 clove"
+    },
+    {
+      "name": "Red bell pepper",
+      "quantity": "1"
+    },
+    {
+      "name": "Tomato paste",
+      "quantity": "1 tsp"
+    },
+    {
+      "name": "Smoked paprika",
+      "quantity": "0.5 tsp"
+    },
+    {
+      "name": "Cumin",
+      "quantity": "0.25 tsp"
+    },
+    {
+      "name": "Tomato",
+      "quantity": "2"
+    },
+    {
+      "name": "Egg",
+      "quantity": "2"
+    },
+    {
+      "name": "Feta",
+      "quantity": "0.5 cup"
+    },
+    {
+      "name": "Salt",
+      "quantity": ""
+    },
+    {
+      "name": "Pepper",
+      "quantity": ""
+    },
+    {
+      "name": "Red pepper flakes",
+      "quantity": ""
+    },
+    {
+      "name": "Parsley",
+      "quantity": ""
+    }
+  ],
+  "instructions": [
+    "If you haven't already, peel and dice your tomatoes, then measure out 2 cups and set them aside.",
+    "Heat a small cast-iron skillet over medium heat. Once hot, add 1 tablespoon olive oil and let it heat as well. Add the onion and cook for 2-3 minutes. Then, add the bell pepper and let it cook for 3-4 minutes, or until golden brown. Add the garlic, and cook for 30 seconds or until fragrant. Add the tomato paste, and spices, and cook for 30 more seconds, stirring often.",
+    "Add the diced tomatoes, salt, and black pepper, and stir. Cover with a lid and let it cook over medium-low heat for 10 minutes, or until most of the liquid has dissolved and the tomatoes are mushy.",
+    "It's time for the eggs. Using the back of a spoon, make spaces for them in the tomato mixture, then gently crack them into the spaces, sprinkle with salt and black pepper, and cover the pan with a lid.",
+    "Let the eggs cook for 2-3 minutes over low heat, or until the egg whites are settled, but the egg yolks are still soft and runny. Top with feta cheese, fresh herbs, and a drizzle of olive oil, and serve!"
+  ]
+}
