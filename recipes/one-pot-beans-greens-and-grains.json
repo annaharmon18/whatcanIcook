@@ -1,0 +1,55 @@
+{
+  "id": 1771900601449,
+  "name": "One-pot Beans, Greens, and Grains",
+  "meal": "Dinner",
+  "cuisine": "",
+  "cookTime": 45,
+  "servings": 2,
+  "complexity": 2,
+  "image": "onepotbeans.jpg",
+  "source": "https://cooking.nytimes.com/recipes/1026472-one-pot-beans-greens-and-grains",
+  "ingredients": [
+    {
+      "name": "Broth",
+      "quantity": "1.75 cup"
+    },
+    {
+      "name": "Quinoa",
+      "quantity": "1 cup"
+    },
+    {
+      "name": "Beans",
+      "quantity": "1 can"
+    },
+    {
+      "name": "Olive oil",
+      "quantity": "2 tbsp"
+    },
+    {
+      "name": "Garlic",
+      "quantity": "1 clove"
+    },
+    {
+      "name": "Kale",
+      "quantity": "1 handful"
+    },
+    {
+      "name": "Lemon",
+      "quantity": "1"
+    },
+    {
+      "name": "Salt",
+      "quantity": ""
+    },
+    {
+      "name": "Pepper",
+      "quantity": ""
+    }
+  ],
+  "instructions": [
+    "In a large pot or Dutch oven, bring the water, quinoa and a generous pinch each of salt and pepper to a boil over high. Cover, reduce heat to low and simmer for 13 minutes.",
+    "While the quinoa cooks, drain and rinse the beans, then transfer to a small bowl. Finely grate the garlic over the beans, then add the oil and a pinch each of salt and pepper, and stir to combine. Set aside. Remove and discard any tough stems from the greens, then roughly chop the leaves.",
+    "After 13 minutes, arrange the greens on top of the quinoa and season well with salt and pepper. Cover and cook until the quinoa is tender, 5 to 7 minutes. (When the quinoa is tender, it’s also translucent and has a thin white tail.) Remove the pot from heat, scrape the beans over the greens, then cover the pot and let sit for 5 minutes.",
+    "Finely grate some of the lemon zest over the beans and greens, then cut the lemon into wedges. Eat the beans, greens and grains with a squeeze of lemon juice, salt and pepper to taste and any toppings you like."
+  ]
+}
