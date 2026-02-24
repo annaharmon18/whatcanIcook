@@ -2,7 +2,7 @@
 // Add your recipe JSON filenames here. Each file lives in recipes/
 const RECIPE_FILES = [
   'oatmeal.json',
-  'shakshouka.json',
+  'shakshuka.json',
   'toast.json',
   // Add more here as you export them from the Add Recipe form
 ];
