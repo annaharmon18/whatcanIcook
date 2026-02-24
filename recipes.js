@@ -5,6 +5,7 @@ const RECIPE_FILES = [
   'autumn-salad.json',
   'coconut-miso-salmon-curry.json',
   'one-pot-beans-greens-and-grains.json',
+  'breakfast-burrito.json',
   // Add more here as you export them from the Add Recipe form
 ];
 
