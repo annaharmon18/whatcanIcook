@@ -1,0 +1,63 @@
+{
+  "id": 1771908857984,
+  "name": "Breakfast Burrito",
+  "meal": "Breakfast",
+  "cuisine": "American",
+  "cookTime": 60,
+  "servings": 16,
+  "complexity": 2,
+  "image": "bfastburrito.jpg",
+  "source": "https://www.youtube.com/watch?v=YpGUKVTkOLg",
+  "ingredients": [
+    {
+      "name": "Ground turkey",
+      "quantity": "1 lb"
+    },
+    {
+      "name": "Taco seasoning",
+      "quantity": ""
+    },
+    {
+      "name": "Egg",
+      "quantity": "8"
+    },
+    {
+      "name": "Milk",
+      "quantity": "2 tbsp"
+    },
+    {
+      "name": "Green pepper",
+      "quantity": "2"
+    },
+    {
+      "name": "Yellow onion",
+      "quantity": "1"
+    },
+    {
+      "name": "Spinach",
+      "quantity": "5 cup"
+    },
+    {
+      "name": "Shredded cheese",
+      "quantity": "1 cup"
+    },
+    {
+      "name": "Tortilla",
+      "quantity": "16"
+    }
+  ],
+  "instructions": [
+    "In a large bowl add the turkey and all of the seasonings. Mix thoroughly to incorporate into the meat.",
+    "In a large skillet over medium high heat, add 1 tbsp of oil and add in the turkey. Brown it on both sides and cook it until no pink color remains.",
+    "Break up the sausage into small pieces and set aside until you are ready for it later.",
+    "Cut the peppers and onion into a small dice and roughly chop the spinach into smaller pieces.",
+    "In a large skillet over medium high heat add 1 tbsp of oil and add in the peppers and onions. Allow them to cook down and soften. Season lightly with salt early to help encourage some of the water to be released faster.",
+    "Once the onions have begun to turn translucent, add in the spinach. Stir to combine and wilt the spinach.",
+    "Crack 8 eggs into a bowl, add in 2 tbsp of milk and beat until they are smooth.",
+    "You can cook the eggs in the same skillet or in a separate one at the same time as the vegetables cook. If you use the same skillet, create some room in the center to cook the eggs.",
+    "Add in 1 tbsp of oil and pour the eggs into the center to make scrambled eggs. Cook them for a few minutes until they have finished.",
+    "Once done, remove from the heat and stir in the sausage. Mix and give it a taste test. Adjust flavor with salt and pepper as necessary.",
+    "Allow the mixture to cool before you construct the burritos, put it in the fridge for a few minutes if necessary.",
+    "Add about 1 tbsp of shredded cheese to the top of the filling and roll the burrito up by folding in the sides first, then rolling the center over the top. Repeat until all of your filling is used up."
+  ]
+}
