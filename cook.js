@@ -1,7 +1,9 @@
 // ── CONFIG ────────────────────────────────────────────────────────────────────
 const RECIPE_FILES = [
-  'oatmeal.json',
-  'shakshouka.json',
+  'shakshuka.json',
+  'autumn-salad.json',
+  'coconut-miso-salmon-curry.json',
+  'one-pot-beans-greens-and-grains.json',
   // Keep in sync with recipes.js
 ];
 
